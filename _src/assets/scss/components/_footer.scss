@@ -43,6 +43,12 @@ background-color: $white;
   .nav__list, .rrss__list, .copy{
     align-items: flex-start;
   }
-
-
+}
+@media all and (min-width:1200px){
+  .nav__list{
+    margin-bottom:0;
+  }
+ .page__footer{
+  padding: 45px 0;
+ }
 }

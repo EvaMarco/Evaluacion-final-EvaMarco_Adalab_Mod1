@@ -98,3 +98,16 @@
   line-height: $line-height-md;
 }
 }
+@media all and (min-width:768px){
+  .hero__title-text{
+    font-size: $font-size-xxxl;
+    line-height: $line-height-xxxl;
+  }
+  .text__small{
+    font-size: $font-size-sm;
+  }
+  .title__text{
+    font-size: $font-size-xx;
+    line-height: $line-height-lg;
+  }
+}

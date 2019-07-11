@@ -7,3 +7,14 @@
 }
 }
 
+@media all and (min-width:1200px){
+  .hero__section1 .container, .hero__section2 .container, .tips .container{
+    margin: 0 275px;
+  }
+  .page__reasons .container{
+    margin: 0 85px 0 81px;
+  }
+  .page__footer .container{
+    margin: 0 370px;
+  }
+  }

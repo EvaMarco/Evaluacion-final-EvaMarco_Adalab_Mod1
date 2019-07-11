@@ -36,7 +36,15 @@
   }
   .tips__link{
     padding:0 32px;
-
-  }
   }
 
+  }
+
+  @media all and (min-width:1200px){
+    .tips{
+      padding: 60px 0;
+    }
+    .tips__link{
+      padding:0 67px;
+    }
+  }
