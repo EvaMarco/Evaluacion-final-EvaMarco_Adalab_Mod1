@@ -8,6 +8,9 @@
   .container {
     margin: 0 39px;
   }
+  .page__reasons .container{
+    margin:0 auto;
+  }
 }
 
 @media all and (min-width: 1200px) {
@@ -17,7 +20,7 @@
     margin: 0 275px;
   }
   .page__reasons .container {
-    margin: 0 85px 0 81px;
+    margin: 0 80px;
   }
   .page__footer .container {
     margin: 0 370px;
