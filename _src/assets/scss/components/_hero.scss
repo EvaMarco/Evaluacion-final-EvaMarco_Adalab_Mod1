@@ -1,0 +1,25 @@
+.page__hero{
+  background-image: url(../images/cover.jpg);
+  @include bg-img();
+  height: 100vh;
+
+}
+.hero__section1{
+  height: 50%;
+}
+.hero__section2{
+  text-align: center;
+  height:50%;
+}
+.hero__title{
+  margin-bottom:10px;
+}
+
+.hero__btn{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: $white;
+  margin:45px auto 53px;
+  @include center();
+}

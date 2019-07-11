@@ -1,0 +1,11 @@
+.menu__btn{
+  height: 44px;
+  width: 44px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $color-menu-button;
+  text-align: center;
+  @include center();
+  border-radius:0;
+}
