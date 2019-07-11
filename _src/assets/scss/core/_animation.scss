@@ -1,0 +1,17 @@
+
+@keyframes rebote {
+
+  0%{
+    transform: translateX(-50%) translateY(calc(-50%));
+  }
+  33%{
+    transform: translateX(-50%) translateY(calc(-50% - 5px));
+  }
+  66%{
+    transform:  translateX(-50%) translateY(calc(-50% - 10px));
+  }
+  100%{
+    transform:  translateX(-50%) translateY(calc(-50% - 5px));
+  }
+
+}

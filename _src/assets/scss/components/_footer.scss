@@ -34,6 +34,13 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
+  &:hover{
+    animation-name: rebote;
+    animation-duration: 0.4s;
+    animation-iteration-count: 3;
+  }
+
+
 }
 .heart {
   color: #f26002;
