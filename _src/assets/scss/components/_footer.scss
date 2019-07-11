@@ -2,3 +2,14 @@
   padding: 60px 0 45px;
   background-color: $color-footer-bg;
 }
+.nav__list, .rrss__list, .copy{
+  list-style: none;
+  margin:0;
+  padding:0;
+  @include center();
+  flex-direction: column;
+  margin-bottom:30px;
+}
+.nav__item-link, .rrss__item-link{
+  text-decoration: none;
+}

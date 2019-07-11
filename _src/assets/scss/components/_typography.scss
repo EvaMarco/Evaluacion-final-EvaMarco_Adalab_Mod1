@@ -72,3 +72,25 @@
   line-height: $line-height-md;
   color: $white;
 }
+
+@media all and (min-width:768px){
+  .hero__title-text{
+  font-size: $font-size-xxl;
+  line-height: $line-height-xxl;
+}
+.hero__subtitle{
+  font-size: $font-size-lg;
+  line-height: $line-height-reg;
+}
+.title__text{
+  font-size: $font-size-x;
+  line-height: $line-height-lg;
+}
+.article__text{
+  font-size: $font-size-reg;
+}
+.subtitle__text{
+  font-size: $font-size-lg;
+  line-height: $line-height-md;
+}
+}

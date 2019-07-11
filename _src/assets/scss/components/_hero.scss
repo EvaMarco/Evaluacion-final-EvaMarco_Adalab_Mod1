@@ -6,6 +6,7 @@
 .hero__section1 {
   height: 50%;
 }
+
 .hero__section2 {
   text-align: center;
   height: 50%;
@@ -27,4 +28,16 @@
   background-color: $white;
   @include center();
 }
+.hero__btn-link{
+  @include center();
+  text-decoration: none;
 
+}
+@media all and (min-width:768px){
+.hero__title{
+  margin-bottom: 20px;
+}
+.hero__btn {
+  margin: 0 auto 45px;
+}
+}
