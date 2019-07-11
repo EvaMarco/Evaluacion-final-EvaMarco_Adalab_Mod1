@@ -1,25 +1,31 @@
-.page__hero{
+.page__hero {
   background-image: url(../images/cover.jpg);
   @include bg-img();
   height: 100vh;
-
 }
-.hero__section1{
+.hero__section1 {
   height: 50%;
 }
-.hero__section2{
+.hero__section2 {
   text-align: center;
-  height:50%;
+  height: 50%;
 }
-.hero__title{
-  margin-bottom:10px;
+.hero__section2 .container {
+  @include center();
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
 }
-
-.hero__btn{
+.hero__title {
+  margin-bottom: 10px;
+}
+.hero__btn {
   height: 45px;
   width: 45px;
   border-radius: 50%;
   background-color: $white;
-  margin:45px auto 53px;
-  @include center();
+}
+.hero__button-container {
+  margin: 0 auto;
+  padding: 45px 0 53px;
 }
