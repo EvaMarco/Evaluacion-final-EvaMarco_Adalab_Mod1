@@ -1,6 +1,9 @@
 .footer__btn{
 height: 45px;
 width: 45px;
+border-radius: 50%;
+background-color: $white;
+@include center();
 }
 
 .page__footer{
@@ -32,8 +35,14 @@ width: 45px;
     display:flex;
     justify-content: space-between;
   }
-  .copy{
-    order:1;
+  .copy {
+    order:-1;
+    text-align:left;
+    justify-content: flex-start;
   }
+  .nav__list, .rrss__list, .copy{
+    align-items: flex-start;
+  }
+
 
 }
