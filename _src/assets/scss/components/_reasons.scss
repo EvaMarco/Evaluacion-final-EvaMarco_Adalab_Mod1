@@ -17,10 +17,11 @@
 }
 .reasons__button{
   padding: 0 30px;
-  transition: transform ease 0.5s, background-color ease 0.5s, border ease 0.5s, color ease 0.5s;
+  transition: background-color ease 0.5s, border ease 0.5s, color ease 0.5s;
 }
 
 .reasons__button:hover{
+  transition:transform ease 0.5s;
   transform:scale(1.1);
 }
 
@@ -35,6 +36,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto 1fr auto;
+    grid-gap:0 30px;
   }
   .reasons__title-container{
     grid-column: 1/4;
@@ -45,7 +47,7 @@
     margin-bottom: 14px;
   }
   .reason{
-    margin-bottom:0;
+    margin:0;
   }
   .reason1{
     grid-column:1/2;
@@ -62,6 +64,9 @@
   .reasons__button-container{
     grid-column:1/4;
     grid-row:3/4;
-    margin:60px auto;
+    margin:60px auto 0;
+  }
+  .reasons__button{
+    padding: 0 43px;
   }
 }

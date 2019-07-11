@@ -1,6 +1,12 @@
+.footer__btn{
+height: 45px;
+width: 45px;
+}
+
 .page__footer{
   padding: 60px 0 45px;
   background-color: $color-footer-bg;
+  position:relative;
 }
 .nav__list, .rrss__list, .copy{
   list-style: none;
@@ -12,4 +18,22 @@
 }
 .nav__item-link, .rrss__item-link{
   text-decoration: none;
+}
+
+.footer__button-container{
+  position:absolute;
+  top:0;
+  left:50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+@media all and (min-width:768px){
+  .page__footer .container{
+    display:flex;
+    justify-content: space-between;
+  }
+  .copy{
+    order:1;
+  }
+
 }
