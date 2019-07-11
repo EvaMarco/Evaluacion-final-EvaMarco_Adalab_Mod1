@@ -1,0 +1,74 @@
+.hero__title-text{
+  font-family: $font-family-primary;
+  font-size: $font-size-xl;
+  font-weight: $font-weight-bold;
+  color:$color-hero_footer-text;
+  line-height: $line-height-xl;
+  text-transform: uppercase;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.hero__subtitle{
+  font-family: $font-family-secondary;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-normal;
+  color:$color-hero_footer-text;
+}
+.text__small{
+  font-family: $font-family-secondary;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-normal;
+  line-height: $line-height-md;
+  color: $color-small-text;
+}
+.title__text{
+  font-family: $font-family-primary;
+  font-size: $font-size-lg;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-md;
+  color: $color-primary-text;
+}
+
+.article__text{
+  font-family: $font-family-secondary;
+  font-size: $font-size-md;
+  font-weight: $font-weight-normal;
+  line-height: $line-height-md;
+  color: $color-secondary-text;
+}
+.subtitle__text{
+  font-family: $font-family-primary;
+  font-size: $font-size-md;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-md;
+  color: $color-primary-text;
+}
+.aside__text{
+  font-family: $font-family-secondary;
+  font-size: $font-size-md;
+  font-weight: $font-weight-normal;
+  line-height: $line-height-md;
+  color: $color-primary-text;
+}
+.button__text{
+  font-family: $font-family-secondary;
+  font-size: $font-size-reg;
+  font-weight: $font-weight-normal;
+  line-height: $line-height-lg;
+  color: $white;
+}
+.footer__text{
+  font-family: $font-family-secondary;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-normal;
+  line-height: $line-height-md;
+  color: $white;
+  text-transform: uppercase;
+}
+.footer__small-text{
+  font-family: $font-family-secondary;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-normal;
+  line-height: $line-height-md;
+  color: $white;
+}
