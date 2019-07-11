@@ -73,6 +73,8 @@
   color: $white;
 }
 
+/* MEDIA QUERIES TYPOGRAPHY */
+
 @media all and (min-width:768px){
   .hero__title-text{
   font-size: $font-size-xxl;
@@ -98,7 +100,8 @@
   line-height: $line-height-md;
 }
 }
-@media all and (min-width:768px){
+
+@media all and (min-width:1200px){
   .hero__title-text{
     font-size: $font-size-xxxl;
     line-height: $line-height-xxxl;

@@ -3,13 +3,11 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
-@mixin center(){
-  display:flex;
+@mixin center() {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-@mixin clear(){
+@mixin clear() {
   text-decoration: none;
-
 }

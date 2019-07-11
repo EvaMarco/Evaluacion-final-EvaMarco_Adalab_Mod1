@@ -28,25 +28,26 @@
   background-color: $white;
   @include center();
 }
-.hero__btn-link{
+.hero__btn-link {
   @include center();
   text-decoration: none;
+}
+/* MEDIA QUERIES HERO */
 
+@media all and (min-width: 768px) {
+  .hero__title {
+    margin-bottom: 20px;
+  }
+  .hero__btn {
+    margin: 0 auto 45px;
+  }
 }
-@media all and (min-width:768px){
-.hero__title{
-  margin-bottom: 20px;
-}
-.hero__btn {
-  margin: 0 auto 45px;
-}
-}
-@media all and (min-width:1200px){
-  .hero__title{
+@media all and (min-width: 1200px) {
+  .hero__title {
     margin-bottom: 0;
   }
 
   .hero__btn {
     margin: 0 auto 13px;
   }
-  }
+}
