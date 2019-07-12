@@ -1,10 +1,4 @@
-.footer__btn {
-  height: 45px;
-  width: 45px;
-  border-radius: 50%;
-  background-color: $white;
-  @include center();
-}
+
 
 .page__footer {
   padding: 60px 0 45px;
@@ -28,8 +22,12 @@
 .rrss__item-link {
   text-decoration: none;
 }
-
 .footer__button-container {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: $white;
+  @include center();
   position: absolute;
   top: 0;
   left: 50%;
@@ -39,7 +37,6 @@
     animation-duration: 0.4s;
     animation-iteration-count: 3;
   }
-
 
 }
 .heart {
