@@ -2,9 +2,7 @@
   background-image: url(../images/cover.jpg);
   @include bg-img();
   height: 100vh;
-}
-.page__hero .container {
-  height: 100%;
+  min-height:100vh;
 }
 .hero__section {
   height: 100%;
@@ -20,22 +18,20 @@
 }
 
 .hero__btn {
-  margin: 0 auto 53px;
+  margin-bottom: 53px;
   height: 45px;
   width: 45px;
   border-radius: 50%;
   background-color: $white;
   @include center();
+  text-decoration: none;
   &:hover {
     animation-name: rotate;
     animation-duration: 0.7s;
     animation-iteration-count: 2;
   }
 }
-.hero__btn-link {
-  @include center();
-  text-decoration: none;
-}
+
 /* MEDIA QUERIES HERO */
 
 @media all and (min-width: 768px) {
@@ -43,15 +39,16 @@
     margin-bottom: 20px;
   }
   .hero__btn {
-    margin: 0 auto 45px;
+    margin-bottom: 45px;
   }
 }
+
 @media all and (min-width: 1280px) {
   .hero__title {
     margin-bottom: 0;
   }
 
   .hero__btn {
-    margin: 0 auto 13px;
+    margin-bottom: 13px;
   }
 }
