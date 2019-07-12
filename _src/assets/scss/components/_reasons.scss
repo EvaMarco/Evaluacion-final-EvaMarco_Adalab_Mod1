@@ -81,7 +81,7 @@
 /* MEDIA QUERIES REASONS SECTION */
 
 @media all and (min-width: 1200px) {
-  .page__reasons .container {
+  .grid-container {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto 1fr auto;
     grid-gap: 0 30px;
