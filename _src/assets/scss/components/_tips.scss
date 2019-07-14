@@ -10,22 +10,18 @@
 .tips__text {
   margin-bottom: 30px;
 }
-.tips__link {
+
+.tips__link{
   padding: 0 25px;
   @include clear();
   color: $color-button;
-}
-
-.tips__link-container {
   height: 45px;
   transition: transform ease 0.7s, background-color ease 0.7s, color ease 0.7s;
 }
-.tips__link-container:hover {
+.tips__link:hover {
   transform: scale(1.2);
   background-color: $color-button;
-  & .tips__link {
-    color: $white;
-  }
+  color: $white;
 }
 
 /* MEDIA QUERIES TIPS SECTION */
@@ -37,7 +33,7 @@
   .tips__title {
     margin-bottom: 30px;
   }
-  .tips__link {
+  .tips__link{
     padding: 0 32px;
   }
 }
@@ -46,7 +42,7 @@
   .tips {
     padding: 60px 0;
   }
-  .tips__link {
+  .tips__link{
     padding: 0 67px;
   }
 }
