@@ -65,7 +65,14 @@
     margin-bottom:0;
   }
 }
+
 @media all and (min-width: 1280px) {
+  .copy{
+    margin-left: 95px;
+  }
+  .rrss{
+    margin-right:95px;
+  }
   .nav__list {
     margin-bottom: 0;
   }

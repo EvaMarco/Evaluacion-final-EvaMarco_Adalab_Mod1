@@ -10,15 +10,26 @@
   }
 }
 
-@media all and (min-width: 1280px) {
-  .page__hero .container,
-  .tips .container {
-    margin: 0 275px;
+@media all and (min-width: 820px) {
+.container {
+    margin: 0 auto;
+    max-width: 730px;
   }
   .page__reasons .container {
-    margin: 0 81px;
+    margin: 0 45px;
   }
-  .page__footer .container {
-    margin: 0 370px;
+}
+
+@media all and (min-width: 850px) {
+  .page__reasons .container {
+    margin: 0 auto;
+    max-width: 730px;
+  }
+}
+@media all and (min-width: 1280px) {
+  .page__reasons .container {
+    margin: 0 auto;
+    max-width: 1114px;
+
   }
 }
