@@ -6,19 +6,33 @@
 }
 .tips__title {
   margin-bottom: 15px;
+  @media all and (min-width:768px){
+    order:-1;
+  }
 }
 .tips__text {
   margin-bottom: 30px;
+ @media all and (max-width:767px){
+   margin-bottom:50px;
+ }
+}
+
+.tips .container{
+  @media all and (min-width:768px){
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .tips__link{
   padding: 0 25px;
   @include clear();
-  color: $color-button;
+  color: $white;
   height: 45px;
   transition: transform ease 0.7s, background-color ease 0.7s, color ease 0.7s;
 }
-.tips__link:hover {
+.tips__link:hover{
   transform: scale(1.2);
   background-color: $color-button;
   color: $white;

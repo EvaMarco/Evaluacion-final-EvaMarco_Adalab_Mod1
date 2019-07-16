@@ -18,13 +18,18 @@
 }
 
 .hero__btn {
+
   margin-bottom: 53px;
   height: 45px;
   width: 45px;
   border-radius: 50%;
   background-color: $white;
   @include center();
+  display: none;
   text-decoration: none;
+  @media all and (min-width:768px){
+    display:flex;
+  }
   &:hover {
     animation-name: rotate;
     animation-duration: 0.7s;
